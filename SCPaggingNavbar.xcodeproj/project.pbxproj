@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29AE41D718792B8800E128EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE41D618792B8800E128EC /* Foundation.framework */; };
+		29AE41D918792B8800E128EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE41D818792B8800E128EC /* CoreGraphics.framework */; };
+		29AE41DB18792B8800E128EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE41DA18792B8800E128EC /* UIKit.framework */; };
+		29AE41E118792B8800E128EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29AE41DF18792B8800E128EC /* InfoPlist.strings */; };
+		29AE41E318792B8800E128EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE41E218792B8800E128EC /* main.m */; };
+		29AE41E718792B8800E128EC /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE41E618792B8800E128EC /* SCAppDelegate.m */; };
+		29AE41E918792B8800E128EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AE41E818792B8800E128EC /* Images.xcassets */; };
+		29AE41F018792B8800E128EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE41EF18792B8800E128EC /* XCTest.framework */; };
+		29AE41F118792B8800E128EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE41D618792B8800E128EC /* Foundation.framework */; };
+		29AE41F218792B8800E128EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE41DA18792B8800E128EC /* UIKit.framework */; };
+		29AE41FA18792B8800E128EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29AE41F818792B8800E128EC /* InfoPlist.strings */; };
+		29AE41FC18792B8800E128EC /* SCPaggingNavbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE41FB18792B8800E128EC /* SCPaggingNavbarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29AE41F318792B8800E128EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29AE41CB18792B8800E128EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29AE41D218792B8800E128EC;
+			remoteInfo = SCPaggingNavbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29AE41D318792B8800E128EC /* SCPaggingNavbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCPaggingNavbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AE41D618792B8800E128EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29AE41D818792B8800E128EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29AE41DA18792B8800E128EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29AE41DE18792B8800E128EC /* SCPaggingNavbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCPaggingNavbar-Info.plist"; sourceTree = "<group>"; };
+		29AE41E018792B8800E128EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29AE41E218792B8800E128EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29AE41E418792B8800E128EC /* SCPaggingNavbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCPaggingNavbar-Prefix.pch"; sourceTree = "<group>"; };
+		29AE41E518792B8800E128EC /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		29AE41E618792B8800E128EC /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		29AE41E818792B8800E128EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29AE41EE18792B8800E128EC /* SCPaggingNavbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCPaggingNavbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AE41EF18792B8800E128EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		29AE41F718792B8800E128EC /* SCPaggingNavbarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCPaggingNavbarTests-Info.plist"; sourceTree = "<group>"; };
+		29AE41F918792B8800E128EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29AE41FB18792B8800E128EC /* SCPaggingNavbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPaggingNavbarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AE41D018792B8800E128EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AE41D918792B8800E128EC /* CoreGraphics.framework in Frameworks */,
+				29AE41DB18792B8800E128EC /* UIKit.framework in Frameworks */,
+				29AE41D718792B8800E128EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AE41EB18792B8800E128EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AE41F018792B8800E128EC /* XCTest.framework in Frameworks */,
+				29AE41F218792B8800E128EC /* UIKit.framework in Frameworks */,
+				29AE41F118792B8800E128EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AE41CA18792B8800E128EC = {
+			isa = PBXGroup;
+			children = (
+				29AE41DC18792B8800E128EC /* SCPaggingNavbar */,
+				29AE41F518792B8800E128EC /* SCPaggingNavbarTests */,
+				29AE41D518792B8800E128EC /* Frameworks */,
+				29AE41D418792B8800E128EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29AE41D418792B8800E128EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AE41D318792B8800E128EC /* SCPaggingNavbar.app */,
+				29AE41EE18792B8800E128EC /* SCPaggingNavbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29AE41D518792B8800E128EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29AE41D618792B8800E128EC /* Foundation.framework */,
+				29AE41D818792B8800E128EC /* CoreGraphics.framework */,
+				29AE41DA18792B8800E128EC /* UIKit.framework */,
+				29AE41EF18792B8800E128EC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29AE41DC18792B8800E128EC /* SCPaggingNavbar */ = {
+			isa = PBXGroup;
+			children = (
+				29AE41E518792B8800E128EC /* SCAppDelegate.h */,
+				29AE41E618792B8800E128EC /* SCAppDelegate.m */,
+				29AE41E818792B8800E128EC /* Images.xcassets */,
+				29AE41DD18792B8800E128EC /* Supporting Files */,
+			);
+			path = SCPaggingNavbar;
+			sourceTree = "<group>";
+		};
+		29AE41DD18792B8800E128EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AE41DE18792B8800E128EC /* SCPaggingNavbar-Info.plist */,
+				29AE41DF18792B8800E128EC /* InfoPlist.strings */,
+				29AE41E218792B8800E128EC /* main.m */,
+				29AE41E418792B8800E128EC /* SCPaggingNavbar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29AE41F518792B8800E128EC /* SCPaggingNavbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				29AE41FB18792B8800E128EC /* SCPaggingNavbarTests.m */,
+				29AE41F618792B8800E128EC /* Supporting Files */,
+			);
+			path = SCPaggingNavbarTests;
+			sourceTree = "<group>";
+		};
+		29AE41F618792B8800E128EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AE41F718792B8800E128EC /* SCPaggingNavbarTests-Info.plist */,
+				29AE41F818792B8800E128EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29AE41D218792B8800E128EC /* SCPaggingNavbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AE41FF18792B8800E128EC /* Build configuration list for PBXNativeTarget "SCPaggingNavbar" */;
+			buildPhases = (
+				29AE41CF18792B8800E128EC /* Sources */,
+				29AE41D018792B8800E128EC /* Frameworks */,
+				29AE41D118792B8800E128EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCPaggingNavbar;
+			productName = SCPaggingNavbar;
+			productReference = 29AE41D318792B8800E128EC /* SCPaggingNavbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29AE41ED18792B8800E128EC /* SCPaggingNavbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AE420218792B8800E128EC /* Build configuration list for PBXNativeTarget "SCPaggingNavbarTests" */;
+			buildPhases = (
+				29AE41EA18792B8800E128EC /* Sources */,
+				29AE41EB18792B8800E128EC /* Frameworks */,
+				29AE41EC18792B8800E128EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AE41F418792B8800E128EC /* PBXTargetDependency */,
+			);
+			name = SCPaggingNavbarTests;
+			productName = SCPaggingNavbarTests;
+			productReference = 29AE41EE18792B8800E128EC /* SCPaggingNavbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AE41CB18792B8800E128EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Singro;
+				TargetAttributes = {
+					29AE41ED18792B8800E128EC = {
+						TestTargetID = 29AE41D218792B8800E128EC;
+					};
+				};
+			};
+			buildConfigurationList = 29AE41CE18792B8800E128EC /* Build configuration list for PBXProject "SCPaggingNavbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29AE41CA18792B8800E128EC;
+			productRefGroup = 29AE41D418792B8800E128EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AE41D218792B8800E128EC /* SCPaggingNavbar */,
+				29AE41ED18792B8800E128EC /* SCPaggingNavbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AE41D118792B8800E128EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AE41E118792B8800E128EC /* InfoPlist.strings in Resources */,
+				29AE41E918792B8800E128EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AE41EC18792B8800E128EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AE41FA18792B8800E128EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AE41CF18792B8800E128EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AE41E718792B8800E128EC /* SCAppDelegate.m in Sources */,
+				29AE41E318792B8800E128EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AE41EA18792B8800E128EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AE41FC18792B8800E128EC /* SCPaggingNavbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29AE41F418792B8800E128EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29AE41D218792B8800E128EC /* SCPaggingNavbar */;
+			targetProxy = 29AE41F318792B8800E128EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29AE41DF18792B8800E128EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AE41E018792B8800E128EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29AE41F818792B8800E128EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AE41F918792B8800E128EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29AE41FD18792B8800E128EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29AE41FE18792B8800E128EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29AE420018792B8800E128EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCPaggingNavbar/SCPaggingNavbar-Prefix.pch";
+				INFOPLIST_FILE = "SCPaggingNavbar/SCPaggingNavbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29AE420118792B8800E128EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCPaggingNavbar/SCPaggingNavbar-Prefix.pch";
+				INFOPLIST_FILE = "SCPaggingNavbar/SCPaggingNavbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29AE420318792B8800E128EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCPaggingNavbar.app/SCPaggingNavbar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCPaggingNavbar/SCPaggingNavbar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SCPaggingNavbarTests/SCPaggingNavbarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		29AE420418792B8800E128EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SCPaggingNavbar.app/SCPaggingNavbar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCPaggingNavbar/SCPaggingNavbar-Prefix.pch";
+				INFOPLIST_FILE = "SCPaggingNavbarTests/SCPaggingNavbarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AE41CE18792B8800E128EC /* Build configuration list for PBXProject "SCPaggingNavbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AE41FD18792B8800E128EC /* Debug */,
+				29AE41FE18792B8800E128EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AE41FF18792B8800E128EC /* Build configuration list for PBXNativeTarget "SCPaggingNavbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AE420018792B8800E128EC /* Debug */,
+				29AE420118792B8800E128EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29AE420218792B8800E128EC /* Build configuration list for PBXNativeTarget "SCPaggingNavbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AE420318792B8800E128EC /* Debug */,
+				29AE420418792B8800E128EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AE41CB18792B8800E128EC /* Project object */;
+}
