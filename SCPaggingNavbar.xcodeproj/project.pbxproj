@@ -19,6 +19,7 @@
 		29AE41F218792B8800E128EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE41DA18792B8800E128EC /* UIKit.framework */; };
 		29AE41FA18792B8800E128EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29AE41F818792B8800E128EC /* InfoPlist.strings */; };
 		29AE41FC18792B8800E128EC /* SCPaggingNavbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE41FB18792B8800E128EC /* SCPaggingNavbarTests.m */; };
+		29AE420718792BAB00E128EC /* SCPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE420618792BAB00E128EC /* SCPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		29AE41F718792B8800E128EC /* SCPaggingNavbarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCPaggingNavbarTests-Info.plist"; sourceTree = "<group>"; };
 		29AE41F918792B8800E128EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29AE41FB18792B8800E128EC /* SCPaggingNavbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPaggingNavbarTests.m; sourceTree = "<group>"; };
+		29AE420518792BAB00E128EC /* SCPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPageViewController.h; sourceTree = "<group>"; };
+		29AE420618792BAB00E128EC /* SCPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				29AE41E518792B8800E128EC /* SCAppDelegate.h */,
 				29AE41E618792B8800E128EC /* SCAppDelegate.m */,
+				29AE420518792BAB00E128EC /* SCPageViewController.h */,
+				29AE420618792BAB00E128EC /* SCPageViewController.m */,
 				29AE41E818792B8800E128EC /* Images.xcassets */,
 				29AE41DD18792B8800E128EC /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AE420718792BAB00E128EC /* SCPageViewController.m in Sources */,
 				29AE41E718792B8800E128EC /* SCAppDelegate.m in Sources */,
 				29AE41E318792B8800E128EC /* main.m in Sources */,
 			);

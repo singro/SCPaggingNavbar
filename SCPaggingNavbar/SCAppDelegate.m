@@ -8,12 +8,19 @@
 
 #import "SCAppDelegate.h"
 
+#import "SCPageViewController.h"
+
 @implementation SCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    SCPageViewController *pageViewController = [[SCPageViewController alloc] init];
+    
+    self.rootViewController = [[UINavigationController alloc] initWithRootViewController:pageViewController];
+    self.window.rootViewController = self.rootViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
